@@ -1,17 +1,17 @@
 ## Getting Started
 
-First, install the dependency in both client and api folders:
+First, install the dependencies in both client and api folders:
+
 ```bash
 npm i
 # or
-yarn 
+yarn
 ```
+
 Then, in Root Directory Run the server and client script:
+
 ```bash
 npm run dev
 ```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-
-
-
