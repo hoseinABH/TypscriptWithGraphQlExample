@@ -1,0 +1,17 @@
+{
+  "name": "typescript-next",
+  "version": "1.0.0",
+  "description": "TypeScriptExample",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm run dev --prefix api",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "Hosein",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
